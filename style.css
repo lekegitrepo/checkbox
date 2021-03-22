@@ -11,3 +11,27 @@ h1 {
   font-size: 2rem;
   color: var(--color);
 }
+
+.checkbox__input {
+
+  input {
+    opacity: 0;
+    width: 1em;
+    height: 1em;
+  }
+
+}
+
+.checkbox__input input {
+  opacity: 0;
+  width: 1em;
+  height: 1em;
+}
+
+.checkbox__control {
+  display: inline-grid;
+  width: 1em;
+  height: 1em;
+  border-radius: 0.25em;
+  border: 0.1em solid currentColor;
+}
