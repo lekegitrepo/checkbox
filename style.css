@@ -3,3 +3,11 @@ body {}
 h1 {
   font-size: 2rem;
 }
+
+.checkbox {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-gap: 0.5em;
+  font-size: 2rem;
+  color: var(--color);
+}
