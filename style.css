@@ -51,3 +51,16 @@ h1 {
  + .checkbox__control {
   box-shadow: 0 0 0 0.05em #fff, 0 0 0.15em 0.1em currentColor;
 }
+
+:root {
+  --disabled: #959495;
+}
+
+.checkbox__input input:checkbox:disabled
+ + .checkbox__control {
+  color: var(--disabled);
+}
+
+.checkbox--disabled {
+  color: var(--disabled);
+}
